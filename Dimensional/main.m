@@ -2,16 +2,17 @@
 //  main.m
 //  Dimensional
 //
-//  Created by Iggy Krajci on 8/11/13.
-//  Copyright Iggy Krajci 2013. All rights reserved.
+//  Created by Iggy Krajci on 9/21/13.
+//  Copyright (c) 2013 Iggy Krajci. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-int main(int argc, char *argv[]) {
-    
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-    int retVal = UIApplicationMain(argc, argv, nil, @"AppController");
-    [pool release];
-    return retVal;
+#import "DimAppDelegate.h"
+
+int main(int argc, char * argv[])
+{
+    @autoreleasepool {
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([DimAppDelegate class]));
+    }
 }
