@@ -44,9 +44,10 @@
         
         [self.world addChild:myLabel];
         
-        self.player = [SKSpriteNode spriteNodeWithImageNamed:@"square-white"];
+        self.player = [SKSpriteNode spriteNodeWithImageNamed:@"blue_circle"];
         self.player.position = CGPointMake(100, 100);
-        self.player.physicsBody = [SKPhysicsBody bodyWithRectangleOfSize:self.player.size];
+        self.player.physicsBody = [SKPhysicsBody bodyWithCircleOfRadius:self.player.size.width/2];
+        self.player.physicsBody.friction = 0;
         
 //        SKPhysicsBody *worldEdges = [SKPhysicsBody bodyWithEdgeLoopFromRect:CGRectMake(0, 0, 9000, self.frame.size.height)];
 //        CG
@@ -63,9 +64,12 @@
         [self addChild:self.world];
 
         [self.world addChild:self.player];
+
     }
     return self;
 }
+
+
 
 - (void)didSimulatePhysics {
     [self centerOnNode: [self childNodeWithName: @"//camera"]];

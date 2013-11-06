@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15483C56180759440047BC8E /* sand.png in Resources */ = {isa = PBXBuildFile; fileRef = 15483C55180759440047BC8E /* sand.png */; };
+		154FB31C1800D5A300D5C235 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 154FB31B1800D5A300D5C235 /* triangle.png */; };
+		154FB31E1800D5AE00D5C235 /* circle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 154FB31D1800D5AE00D5C235 /* circle.jpg */; };
+		154FB3201800D62200D5C235 /* blue_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 154FB31F1800D62200D5C235 /* blue_circle.png */; };
 		1565CFB317EE240D0013E31C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1565CFB217EE240D0013E31C /* Foundation.framework */; };
 		1565CFB517EE240D0013E31C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1565CFB417EE240D0013E31C /* CoreGraphics.framework */; };
 		1565CFB717EE240D0013E31C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1565CFB617EE240D0013E31C /* UIKit.framework */; };
@@ -38,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15483C55180759440047BC8E /* sand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sand.png; sourceTree = "<group>"; };
+		154FB31B1800D5A300D5C235 /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
+		154FB31D1800D5AE00D5C235 /* circle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = circle.jpg; sourceTree = "<group>"; };
+		154FB31F1800D62200D5C235 /* blue_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_circle.png; sourceTree = "<group>"; };
 		1565CFAF17EE240D0013E31C /* Dimensional.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dimensional.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1565CFB217EE240D0013E31C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1565CFB417EE240D0013E31C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -123,6 +131,10 @@
 		1565CFBA17EE240D0013E31C /* Dimensional */ = {
 			isa = PBXGroup;
 			children = (
+				15483C55180759440047BC8E /* sand.png */,
+				154FB31F1800D62200D5C235 /* blue_circle.png */,
+				154FB31D1800D5AE00D5C235 /* circle.jpg */,
+				154FB31B1800D5A300D5C235 /* triangle.png */,
 				1565CFC317EE240D0013E31C /* DimAppDelegate.h */,
 				1565CFC417EE240D0013E31C /* DimAppDelegate.m */,
 				1565CFC617EE240D0013E31C /* Main.storyboard */,
@@ -245,8 +257,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1565CFBF17EE240D0013E31C /* InfoPlist.strings in Resources */,
+				154FB31C1800D5A300D5C235 /* triangle.png in Resources */,
+				15483C56180759440047BC8E /* sand.png in Resources */,
 				1565CFD217EE240D0013E31C /* Images.xcassets in Resources */,
+				154FB3201800D62200D5C235 /* blue_circle.png in Resources */,
 				1565CFD017EE240D0013E31C /* Spaceship.png in Resources */,
+				154FB31E1800D5AE00D5C235 /* circle.jpg in Resources */,
 				1565CFEF17EE2F2B0013E31C /* square-white.png in Resources */,
 				1565CFC817EE240D0013E31C /* Main.storyboard in Resources */,
 			);
@@ -481,6 +497,7 @@
 				1565CFEA17EE240D0013E31C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1565CFEB17EE240D0013E31C /* Build configuration list for PBXNativeTarget "DimensionalTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +506,7 @@
 				1565CFED17EE240D0013E31C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
